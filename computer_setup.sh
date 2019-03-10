@@ -1,0 +1,25 @@
+echo "###################################";
+echo "#   ____ _____  _    ____ _____   #";
+echo "#  / ___|_   _|/ \  |  _ \_   _|  #";
+echo "#  \___ \ | | / _ \ | |_) || |    #";
+echo "#   ___) || |/ ___ \|  _ < | |    #";
+echo "#  |____/ |_/_/   \_\_| \_\|_|    #";
+echo "#                                 #";
+echo "###################################";
+sudo apt-get update -y;
+sudo apt-get upgrade -y;
+sudo apt-get install terminator -y;
+sudo apt-get install htop -y;
+sudo apt-get install iotop -y;
+sudo apt-get install tree -y;
+sudo snap install sublime-text;
+sudo snap install gitkraken;
+sudo apt-get install codeblocks -y;
+sudo apt-get install speedtest-cli -y;
+sudo snap install spotify;
+sudo apt-get install arduino -y;
+sudo apt-get install atom -y;
+
+ping google.com -c 5;
+speedtest-cli;
+terminator -e "htop";
