@@ -6,6 +6,8 @@ echo "#   ___) || |/ ___ \|  _ < | |    #";
 echo "#  |____/ |_/_/   \_\_| \_\|_|    #";
 echo "#                                 #";
 echo "###################################";
+sudo apt-get install snapd -y;
+sudo apt-get install git -y;
 sudo apt-get update -y;
 sudo apt-get upgrade -y;
 sudo apt-get install terminator -y;
